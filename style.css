@@ -1,0 +1,72 @@
+body {
+  font-family: "Koruri", sans-serif;
+}
+
+section{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.contents{
+  padding: 10px;
+  border: solid 2px silver;
+  margin-right: 150px;
+  margin-left: 150px;
+  text-align: center;
+}
+
+h1,h2{
+  text-align: center;
+  margin: 0;
+}
+
+h2{
+  padding-bottom: 10px;
+}
+
+body{
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+li{
+  list-style: none;
+  color: #BDBDBD;
+}
+
+#bar{
+  background: #424242;
+  vertical-align: middle;
+}
+
+#bar ul{
+  width: 750px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#bar ul li{
+  float: left;
+  width: 20%;
+  height: 100%;
+  line-height: 50px;
+  text-align: center;
+  background-color: #424242;
+}
+
+#bar ul li a{
+  display: block;
+}
+
+#bar ul li a:hover{
+  color: #439568;
+}
